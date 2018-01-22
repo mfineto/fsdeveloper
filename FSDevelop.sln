@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSDevelop", "FSDevelop\FSDevelop.csproj", "{F32754FD-CBC1-4E3B-B0D8-708C18DCE875}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSDevelopCarga", "FSDevelopCarga\FSDevelopCarga.csproj", "{56B4684E-D137-479F-A6D8-5399666481C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F32754FD-CBC1-4E3B-B0D8-708C18DCE875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F32754FD-CBC1-4E3B-B0D8-708C18DCE875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F32754FD-CBC1-4E3B-B0D8-708C18DCE875}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F32754FD-CBC1-4E3B-B0D8-708C18DCE875}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56B4684E-D137-479F-A6D8-5399666481C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56B4684E-D137-479F-A6D8-5399666481C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56B4684E-D137-479F-A6D8-5399666481C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56B4684E-D137-479F-A6D8-5399666481C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

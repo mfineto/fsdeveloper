@@ -1,0 +1,81 @@
+{
+	"info": {
+		"name": "FSDevelop",
+		"_postman_id": "e7d15056-2b62-1922-2e1a-71b8ee4ff30d",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"UserID\": \"USER01\",\n\t\"Password\": \"123456\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"login"
+					]
+				},
+				"description": "Aplication Login"
+			},
+			"response": []
+		},
+		{
+			"name": "Products",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6WyJVU0VSMDEiLCJVU0VSMDEiXSwianRpIjoiN2Q0ZmU0NTE3NmRmNDJiNTliOWJjYzM0NGMxMDI3N2EiLCJuYmYiOjE1MTY1NzI4MzEsImV4cCI6MTUxNjU3Mjg5MSwiaWF0IjoxNTE2NTcyODMxLCJpc3MiOiJUb2tlbklzc3VlciIsImF1ZCI6IlRva2VuQXVkaWVuY2UifQ.EXnw8-mm4nczcrzV2Trs3RmJLuYHmcrLhyu72XzEBAacndelWQ0D0ME1MayzkaPjAM8wCPmeJWH5YAwBlO2hp0kPrl383s0oYXBLDPdKd_E_2nMXtWmejOhz5wdlfCeMYAod9jMR12g5VFNMY1mb-jaLA6KzdDKgveStMIDPArd2HfEozjhtLYaUfpwAvLxDkmgKQznQeKqTGNT9cOo8m0kIqSTTSVLAEV4uAQ5OhNe7KcgoPTPV7DqcrSYTGFfnqZACHOSTumf9xVkPf0J_38jxlquuUPNw1HAKKG7eR06tokqiPM_b-kf591Yy9YLELSLbdL4OqF3y0tz6qGnoig",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"UserID\": \"abc\",\n\t\"Password\": \"1234\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/product/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"product",
+						"products"
+					]
+				},
+				"description": "Aplication Login"
+			},
+			"response": []
+		}
+	]
+}

@@ -19,7 +19,7 @@
             vm.dataLoading = true;
             AuthenticationService.Login(vm.username, vm.password, function (response) {
                 if (response.data.authenticated) {
-                    $location.path('/');
+                    $location.url('/');
                 } else {
                     FlashService.Error(response.message);
                     vm.dataLoading = false;

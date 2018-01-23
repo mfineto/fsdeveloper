@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Listagem de Produtos
 
 Projeto Angular que faz acesso a API .Net com MongoDB.
@@ -39,3 +40,7 @@ NodeJs - https://nodejs.org
   http://192.168.15.6:8080""
 - Basta acessar o endereço para navegar
 - O usuário que está cadastrado no mongo é 'USER01' / '123456' é possível alterar no projeto de inicialização.
+=======
+# fsdeveloper
+FSDeveloper
+>>>>>>> f5dd0d99941757bde5a4a4ed1b1d76852d7b456f
